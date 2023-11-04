@@ -1,86 +1,95 @@
-body, menu {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+body,
+menu {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .padre {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
 }
 
 .contacts {
-    width: 400px;
-    background-color: #FFF;
-    height: 100vh;
+  width: 400px;
+  background-color: #fff;
+  height: 100vh;
 }
 
 .mensajes {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: #BEC1BB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-height: 100vh;
+  background-color: #bec1bb;
 }
-
-.mensajes-area {
-    width: 200px;
-}
-
 .mensajes img {
-    width: 250px;
+  width: 250px;
 }
 
 .contact {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    padding: 5px;
-    border: 1px solid #E8EBE4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 5px;
+  border-bottom: 1px solid #e8ebe4;
 }
 
 .contact img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .contact-text {
-    display: flex;
-    flex-direction: column;
-    font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
 }
 
 .contact-text p {
-    margin: 0;
+  margin: 0;
 }
 
 .contact-boton {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    border-bottom: 1px solid #E8EBE4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 1px solid #e8ebe4;
 }
 
 .primary-button {
-    background-color: #A491D2;
-    color: #FFF;
-    border: 0px;
-    width: 140px;
-    height: 50px;
-    font-size: 15px;
+  background-color: #a491d2;
+  color: #fff;
+  border: 0px;
+  width: 140px;
+  height: 50px;
+  font-size: 15px;
 }
 
 .iconos-chat {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    padding-left: 65px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 65px;
+}
+
+.text-mensajes-networking {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  text-align: center;
+}
+
+.text-mensajes-networking h1 {
+  margin-bottom: 0;
+  margin-left: 25px;
+  font-size: 44px;
 }
